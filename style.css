@@ -1,0 +1,46 @@
+body {
+  background-color: #f7f7f7;
+  padding: 20px;
+  font-family: sans-serif;
+}
+h2 {
+  text-align: center;
+}
+table {
+  width: 80%;
+  margin: 50px auto;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 6px double black;
+  padding: 10px;
+  text-align: center;
+}
+th {
+  background-color: #6c7ae0;
+  color: white;
+}
+td:hover {
+  background-color: #5095f0;
+  cursor: pointer;
+}
+
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+.btn-primary {
+  color: rgb(0, 0, 9);
+  border: 2px solid black;
+  padding: 5px;
+  background-color: rgb(233, 11, 29);
+}
+.btn-primary:hover{
+    cursor: pointer;
+    background-color: rgb(250, 247, 37);
+}

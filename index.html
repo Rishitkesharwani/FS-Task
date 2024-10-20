@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class Timetable</title>
+    <link rel="stylesheet" href="../FS-Task/style.css">
+  </head>
+  <body>
+    <h2 class="text-center">Class Timetable</h2>
+
+    <table>
+      <tr>
+        <th>Hours</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+      </tr>
+      <tr>
+        <th>9:00 - 10:00</th>
+        <td class="subject" onclick="openSubjectPage('science')">Science</td>
+        <td class="subject" onclick="openSubjectPage('maths')">Maths</td>
+        <td class="subject" onclick="openSubjectPage('science')">Science</td>
+        <td class="subject" onclick="openSubjectPage('maths')">Maths</td>
+        <td class="subject" onclick="openSubjectPage('arts')">Arts</td>
+      </tr>
+      <tr>
+        <th>10:00 - 11:00</th>
+        <td class="subject" onclick="openSubjectPage('social')">Social</td>
+        <td class="subject" onclick="openSubjectPage('hindi')">Hindi</td>
+        <td class="subject" onclick="openSubjectPage('english')">English</td>
+        <td class="subject" onclick="openSubjectPage('social')">Social</td>
+        <td class="subject" onclick="openSubjectPage('sports')">Sports</td>
+      </tr>
+      <tr>
+        <th>11:00 - 12:00</th>
+        <td colspan="5">Lunch</td>
+      </tr>
+      <tr>
+        <th>12:00 - 1:00</th>
+        <td class="subject" onclick="openSubjectPage('science')">Science</td>
+        <td class="subject" onclick="openSubjectPage('maths')">Maths</td>
+        <td class="subject" onclick="openSubjectPage('science')">Science</td>
+        <td class="subject" onclick="openSubjectPage('maths')">Maths</td>
+        <td class="subject" rowspan="2" onclick="openSubjectPage('project')">
+          Project
+        </td>
+      </tr>
+      <tr>
+        <th>1:00 - 2:00</th>
+        <td class="subject" onclick="openSubjectPage('social')">Social</td>
+        <td class="subject" onclick="openSubjectPage('hindi')">Hindi</td>
+        <td class="subject" onclick="openSubjectPage('english')">English</td>
+        <td class="subject" onclick="openSubjectPage('social')">Social</td>
+      </tr>
+    </table>
+
+    <script>
+      function openSubjectPage(subject) {
+        window.location.href = subject + ".html";
+      }
+    </script>
+  </body>
+</html>
