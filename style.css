@@ -26,7 +26,6 @@ td:hover {
   cursor: pointer;
 }
 
-
 .container {
   width: 80%;
   margin: 0 auto;
@@ -40,7 +39,7 @@ td:hover {
   padding: 5px;
   background-color: rgb(233, 11, 29);
 }
-.btn-primary:hover{
-    cursor: pointer;
-    background-color: rgb(250, 247, 37);
+.btn-primary:hover {
+  cursor: pointer;
+  background-color: rgb(250, 247, 37);
 }
